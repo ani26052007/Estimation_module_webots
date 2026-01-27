@@ -13,8 +13,7 @@
 ---
 
 ## 🎮 Control Architecture
-
-The drone is stabilized using a hierarchical controller adapted from **[Webots_cascaded_pid](https://github.com/ani26052007/Webots_cascaded_pid)**.
+This project reuses the cascaded PID controller I developed in **[Webots_cascaded_pid](https://github.com/ani26052007/Webots_cascaded_pid)**, allowing this work to focus specifically on state estimation and sensor fusion challenges.
 
 1. **Position Controller (Outer Loop):** Computes target velocity to minimize position error.
 2. **Velocity Controller:** Computes target acceleration (tilt angle).
